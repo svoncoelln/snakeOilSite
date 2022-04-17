@@ -114,3 +114,25 @@ hr {
     margin: 0;
     max-width: 80%;
 }
+
+#imageGallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#imageGallery img {
+    width: 35%;
+    height: auto;
+}
+
+.column.side img {
+    width: 300px;
+    height: auto;
+}
+
+#formDiv {
+    margin: 7% 8% 7% 9%;
+    font-size: larger;
+    background-color: #efe8e4;
+}
